@@ -82,7 +82,7 @@ const AGENTS: Agent[] = [
     blurb: "Finds tasks and deadlines in your email.",
     kind: "From email",
     title: "Quote request: kitchen refit",
-    sub: "Email · Priya",
+    sub: "Email · Jess Coombe",
     fields: [
       ["Asks for", "Quote by Friday"],
       ["Effort", "About 30 min"],

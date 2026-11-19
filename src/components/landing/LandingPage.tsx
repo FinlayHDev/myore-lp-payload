@@ -197,7 +197,7 @@ function Upgrade() {
                 On Wednesday I need to call 07700 900123 about the van lease
               </p>
               <p className="border-b border-paper-line pb-3">book the MOT for Friday</p>
-              <p className="border-b border-paper-line pb-3">email priya back tomorrow</p>
+              <p className="border-b border-paper-line pb-3">email jess coombe back tomorrow</p>
             </div>
             <p className="mt-auto pt-8 text-sm text-muted-foreground">
               Saved as typed. Nothing more happens to it.
@@ -214,12 +214,12 @@ function Upgrade() {
               <span className="token token-action">book</span> the MOT for{" "}
               <span className="token token-date">Friday</span>{" "}
               <span className="token token-action">email</span>{" "}
-              <span className="token token-person">Priya</span> back{" "}
+              <span className="token token-person">Jess Coombe</span> back{" "}
               <span className="token token-date">tomorrow</span>
             </p>
             <ul className="mt-6 space-y-2">
               {[
-                ["Email Priya back", "Quick win", "Tue"],
+                ["Email Jess Coombe back", "Quick win", "Tue"],
                 ["Call about the van lease", "Tap to call", "Wed"],
                 ["Book the MOT", "2 min", "Fri"],
               ].map(([t, m, w]) => (
