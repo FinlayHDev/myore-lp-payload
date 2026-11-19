@@ -4,7 +4,7 @@ export const CONTENT_DEFAULTS = {
   seo: {
     title: 'My Ore: notes and agents for owner-run businesses',
     description:
-      'My Ore picks the dates, people and actions out of your notes and turns them into a day you can finish. Agents prepare receipts, mileage, invoice reminders and inbox tasks for you to approve. Waitlist open for the first iPhone release, planned for Autumn 2026.',
+      'My Ore picks the dates, people and actions out of your notes and turns them into a day you can finish. Agents prepare receipts, mileage, invoice reminders and inbox tasks for you to approve. Waitlist open for the first iPhone release, planned for Winter 2026.',
     shareTitle: 'My Ore: raw thoughts, refined.',
     shareDescription:
       'Notes that sort themselves into a day, plus agents that prepare your receipts, mileage and invoice reminders.',
@@ -31,7 +31,7 @@ export const CONTENT_DEFAULTS = {
     {
       question: 'When can I get it, and on what?',
       answer:
-        "The first release is planned for iPhone in Autumn 2026. Everyone on the waitlist gets one email when it's ready.",
+        "The first release is planned for iPhone in Winter 2026. Everyone on the waitlist gets one email when it's ready.",
     },
     {
       question: 'What do the agents actually do?',
@@ -64,7 +64,7 @@ export const CONTENT_DEFAULTS = {
   finalCta: {
     line1: 'Spend your time on the work.',
     line2: 'Not the admin.',
-    body: 'My Ore is planned for iPhone in Autumn 2026. Join the waitlist for one email when the first release is ready.',
+    body: 'My Ore is planned for iPhone in Winter 2026. Join the waitlist for one email when the first release is ready.',
   },
   footer: { tagline: 'Raw thoughts, refined.' },
 } as const
