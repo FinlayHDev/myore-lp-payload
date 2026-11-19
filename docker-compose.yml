@@ -1,0 +1,17 @@
+services:
+  web:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file: .env
+    environment:
+      DATABASE_URI: file:/app/data/payload.db
+      MEDIA_DIR: /app/media
+    volumes:
+      - myore-data:/app/data
+      - myore-media:/app/media
+
+volumes:
+  myore-data:
+  myore-media:
