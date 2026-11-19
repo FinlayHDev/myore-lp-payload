@@ -51,7 +51,7 @@ const NOTES: Note[] = [
       { t: " back " },
       { t: "tomorrow", k: "date" },
       { t: " + send " },
-      { t: "Harlow", k: "person" },
+      { t: "Jo", k: "person" },
       { t: " the revised quote" },
     ],
     chips: [
@@ -61,7 +61,7 @@ const NOTES: Note[] = [
     ],
     tasks: [
       { title: "Email Priya back", meta: "Work · Quick win", when: "Tue" },
-      { title: "Send Harlow the revised quote", meta: "Work · 15 min", when: "This week" },
+      { title: "Send Jo the revised quote", meta: "Work · 15 min", when: "This week" },
     ],
   },
   {

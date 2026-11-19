@@ -18,7 +18,7 @@ const BUCKETS: Record<Dir, string> = {
 const CARDS = [
   {
     tag: "work",
-    title: "Reply to Harlow about the revised quote",
+    title: "Reply to Jo about the revised quote",
     body: "Due Friday. A short reply keeps the job.",
     meta: "Email · 10 min",
   },
@@ -30,7 +30,7 @@ const CARDS = [
   },
   {
     tag: "work",
-    title: "Follow up with Render about the invoice",
+    title: "Follow up with Rob about the invoice",
     body: "Mentioned in three notes this week.",
     meta: "Email · 5 min",
   },

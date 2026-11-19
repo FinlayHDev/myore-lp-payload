@@ -10,7 +10,7 @@ import { useAutoplay, useInView, usePrefersReducedMotion } from "@/hooks/use-aut
 type Task = { id: number; title: string; tag?: string; minutes: number; done: boolean };
 const INITIAL: Task[] = [
   { id: 1, title: "Call supplier", tag: "#Call supplier", minutes: 25, done: false },
-  { id: 2, title: "Send Harlow the revised quote", minutes: 25, done: false },
+  { id: 2, title: "Send Jo the revised quote", minutes: 25, done: false },
 ];
 const DAYS = [["Mon", 9], ["Tue", 10], ["Wed", 11], ["Thu", 12], ["Fri", 13], ["Sat", 14], ["Sun", 15]] as const;
 export function loadLabel(left: number) {

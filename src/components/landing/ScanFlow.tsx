@@ -18,9 +18,9 @@ type Item = {
 };
 
 const ITEMS: Item[] = [
-  { kind: "Receipt", title: "Pret A Manger", sub: "Paddington Station", rows: [["Total", "£14.80"], ["Date", "7 Nov 2026"], ["Category", "Food"]], action: "Add to expenses", suggest: "My hub" },
-  { kind: "Invoice", title: "Northside Plumbing", sub: "INV-2087 · 1 page", rows: [["Amount due", "£186.00"], ["Due", "Fri 20 Nov"], ["From", "Northside Ltd"]], action: "Remind me Wed 18 Nov", suggest: "Home" },
-  { kind: "Letter", title: "Council tax: new bill", sub: "Bristol City Council", rows: [["From", "Bristol City Council"], ["Dated", "5 Nov 2026"], ["Reply by", "Add a date"]], action: "Remind me to reply", suggest: "Home" },
+  { kind: "Receipt", title: "Pret", sub: "Paddington Station", rows: [["Total", "£14.80"], ["Date", "7 Nov 2026"], ["Category", "Food"]], action: "Add to expenses", suggest: "My hub" },
+  { kind: "Invoice", title: "Dan the plumber", sub: "INV-2087 · 1 page", rows: [["Amount due", "£186.00"], ["Due", "Fri 20 Nov"], ["From", "Dan"]], action: "Remind me Wed 18 Nov", suggest: "Home" },
+  { kind: "Letter", title: "Council tax: new bill", sub: "Bristol council", rows: [["From", "Bristol council"], ["Dated", "5 Nov 2026"], ["Reply by", "Add a date"]], action: "Remind me to reply", suggest: "Home" },
 ];
 
 /** Demo of the Scan flow: scan → sort each page into a space → all sorted. */
