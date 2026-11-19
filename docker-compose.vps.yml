@@ -1,0 +1,24 @@
+# For a VPS that already runs Caddy in a Docker network called "proxy".
+# No port is published; Caddy reaches the container by name: myore-landing:3000
+services:
+  web:
+    build: .
+    container_name: myore-landing
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATABASE_URI: file:/app/data/payload.db
+      MEDIA_DIR: /app/media
+    volumes:
+      - myore-data:/app/data
+      - myore-media:/app/media
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+
+volumes:
+  myore-data:
+  myore-media:
